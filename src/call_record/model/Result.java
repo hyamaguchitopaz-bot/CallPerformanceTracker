@@ -1,6 +1,6 @@
-package call_record;
+package call_record.model;
 
-class Result {
+public class Result {
 	private String name;
 	private double rate;
 	private int total;

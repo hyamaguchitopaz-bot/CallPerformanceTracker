@@ -1,17 +1,19 @@
-package call_record;
+package call_record.model;
 
-class Order {
+public class Order {
 	private String month;
 	private String name;
 	private String product;
 	private boolean isSub;
-	
-	public Order(String month,String name,String product,boolean isSub) {
+
+	public Order(String month, String name, String product, boolean isSub) {
 		this.month = month;
 		this.name = name;
 		this.product = product;
 		this.isSub = isSub;
-		
+	}
+	
+	public Order() {
 	}
 
 	public String getMonth() {
@@ -45,6 +47,5 @@ class Order {
 	public void setSub(boolean isSub) {
 		this.isSub = isSub;
 	}
-	
-	
+
 }

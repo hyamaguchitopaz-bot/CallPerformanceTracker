@@ -1,4 +1,6 @@
-package call_record;
+package call_record.condition;
+
+import call_record.model.Order;
 
 public class SearchCondition {
 	private String targetMonth;
@@ -12,6 +14,7 @@ public class SearchCondition {
 	}
 
 	public boolean matches(Order o) {
+				//nullか指定した条件があるか
 		return (targetMonth == null || o.getMonth().equals(targetMonth))
 				&& (targetName == null || o.getName().equals(targetName))
 				&& (targetPro == null || o.getProduct().equals(targetPro));
