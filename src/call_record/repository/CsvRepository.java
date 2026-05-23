@@ -23,19 +23,18 @@ public class CsvRepository {
 				fw.write(o.getSub() + "\r\n");
 			}			
 		}
-		
 	}
 	
 	public List<Order> load(String path) throws IOException{
-		FileReader fr = new FileReader(path);
-		BufferedReader br = new BufferedReader(fr);
-		List<String> list = new ArrayList<String>();
-		String s;
-		while((s = br.readLine()) != null) {
-			list.add(s);
+		List<String> list = new ArrayList<>();
+		try(FileReader fr = new FileReader(path);
+			BufferedReader br = new BufferedReader(fr);){
+			String s;
+			while((s = br.readLine()) != null) {
+				list.add(s);
+			}	
 		}
-		br.close();
-		List<Order> orderList = new ArrayList<Order>();
+		List<Order> orderList = new ArrayList<>();
 		for(int i = 1 ; i < list.size();i++) {
 			String[] line = list.get(i).split(",");
 			Order o = new Order();
