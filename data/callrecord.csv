@@ -5,3 +5,5 @@ month,name,product,subscription
 2026-04,太郎くん,商品B,true
 2026-04,次郎くん,商品B,false
 2026-04,三郎くん,商品A,true
+2026-04,太郎くん,商品A,true
+2026-04,次郎くん,商品A,true

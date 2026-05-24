@@ -27,13 +27,13 @@ public class CallService {
 		}
 		if (cond.getTargetName() != null) {
 			if (sb.length() > 0) {
-				sb.append(" /");
+				sb.append(" / ");
 			}
 			sb.append(cond.getTargetName());
 		}
 		if (cond.getTargetPro() != null) {
 			if (sb.length() > 0) {
-				sb.append(" /");
+				sb.append(" / ");
 			}
 			sb.append(cond.getTargetPro());
 		}
@@ -51,6 +51,7 @@ public class CallService {
 			staffSet.add(o.getName());
 			System.out.println("\nデータを追加しました。");
 			DisplayUtil.showOrder(o);
+			//TODO現在の受注件数の表示を作る
 			System.out.println("--------------------");
 		}
 

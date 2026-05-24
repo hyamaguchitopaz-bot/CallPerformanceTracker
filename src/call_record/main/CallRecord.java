@@ -19,7 +19,7 @@ public class CallRecord {
 		
 		
 		CsvRepository repo = new CsvRepository();
-		List<Order> orderList = repo.load("callrecord.csv");
+		List<Order> orderList = repo.load("data/callrecord.csv");
 
 		// 全受注件数
 		CallService.handleShowList(orderList);

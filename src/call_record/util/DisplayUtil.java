@@ -51,6 +51,7 @@ public class DisplayUtil {
 
 	// データの表示内容
 	public static void showOrder(Order o) {
+						//↓↓TODO日本語対応にしたい
 		System.out.printf("%-8s / %-8s /%-6s %s\n", o.getMonth(), o.getName(), o.getProduct(),
 				o.getSub() ? " (定期)" : " (一般)");
 	}

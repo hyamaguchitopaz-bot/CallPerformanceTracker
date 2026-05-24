@@ -14,7 +14,7 @@ public class CsvRepository {
 	
 	public void save(List<Order> orderList) throws IOException {
 			//↓close忘れを防ぐ
-		try (FileWriter fw = new FileWriter("callrecord.csv")){
+		try (FileWriter fw = new FileWriter("data/callrecord.csv")){
 			fw.write("month,name,product,subscription\r\n");
 			for(Order o: orderList) {
 				fw.write(o.getMonth() + ",");
