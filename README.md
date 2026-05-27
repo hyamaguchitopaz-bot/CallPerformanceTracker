@@ -12,7 +12,7 @@
 - Java
 - Eclipse
 - Git/GitHub
-- ChatGPT
+- ChatGPT（コードのレビュー・改善のために使用）
 
 ## 機能一覧
 - 登録
