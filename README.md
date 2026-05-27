@@ -12,12 +12,13 @@
 - Java
 - Eclipse
 - Git/GitHub
-- ChatGPT（コードのレビュー・改善のために使用）
+- ChatGPT（学習・コードレビュー補助として活用）
 
 ## 機能一覧
-- 登録
-- 検索
-- ランキング表示
+- データ追加
+- 成績管理（条件選択あり）
+- ランキング表示（条件選択あり）
+- データ一覧
 - CSV保存
 
 ## 実行方法
@@ -59,7 +60,7 @@ This application allows users to record sales results, search records, display r
 - Eclipse
 - Git / GitHub
 - CSV File
-- ChatGPT (used for learning and code review)
+- ChatGPT (used for learning and code review support)
 
 # Features
 - Register sales records
