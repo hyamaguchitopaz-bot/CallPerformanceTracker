@@ -35,8 +35,8 @@
 ![add-data](images/02-add-data.png)
 
 ### 成績管理画面
-![search-result](images/03-search-result.png)
-![search-result](images/04-search-result.png)
+![search-result](images/03-search-result1.png)
+![search-result](images/04-search-result2.png)
 
 ### 成績ランキング画面
 ![ranking](images/05-ranking.png)
