@@ -23,7 +23,7 @@
 
 ## 実行方法
 1. Eclipseでプロジェクトをインポート
-2. CallRecord.java を実行
+2. `call_record.main` パッケージ内の `CallRecord.java` を実行
 3. コンソール上で操作
 
 ## 工夫した点
