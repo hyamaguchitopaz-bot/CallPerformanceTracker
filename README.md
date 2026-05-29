@@ -26,6 +26,27 @@
 2. `call_record.main` パッケージ内の `CallRecord.java` を実行
 3. コンソール上で操作
 
+## 画面イメージ
+
+### メニュー画面
+![menu](images/01-menu.png)
+
+### 登録画面
+![add-data](images/02-add-data.png)
+
+### 成績管理画面
+![search-result](images/03-search-result.png)
+![search-result](images/04-search-result.png)
+
+### 成績ランキング画面
+![ranking](images/05-ranking.png)
+
+### 受注一覧画面
+![list](images/06-list.png)
+
+### 登録画面
+![exit-and-save](images/07-exit-and-save.png)
+
 ## 工夫した点
 - メソッド分割による可読性向上
 - 条件検索用クラスを作成し、検索処理を整理
