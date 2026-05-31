@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-import call_record.condition.SearchCondition;
 import call_record.model.Order;
 import call_record.model.Result;
+import call_record.model.SearchCondition;
 import call_record.util.DisplayUtil;
 import call_record.util.InputUtil;
 

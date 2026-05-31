@@ -1,6 +1,4 @@
-package call_record.condition;
-
-import call_record.model.Order;
+package call_record.model;
 
 public class SearchCondition {
 	private String targetMonth;

@@ -2,9 +2,9 @@ package call_record.util;
 
 import java.util.List;
 
-import call_record.condition.SearchCondition;
 import call_record.model.Order;
 import call_record.model.Result;
+import call_record.model.SearchCondition;
 import call_record.service.CallService;
 
 public class DisplayUtil {
